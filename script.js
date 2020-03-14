@@ -20,8 +20,7 @@ for (let i = 0; i < 2; i++) {
         console.log("done");
         appData.expenses[a] = b;
     } else {
-        a = prompt("Введите обязательную статью расходов в этом месяце", "");
-        b = prompt("Во сколько обойдется?", 0);
+        i = i - 1;
     }
 };
 
@@ -36,8 +35,7 @@ for (let i = 0; i < 2; i++) {
 //         console.log("done");
 //         appData.expenses[a] = b;
 //     } else {
-//         a = prompt("Введите обязательную статью расходов в этом месяце", "");
-//         b = prompt("Во сколько обойдется?", 0);
+//         i = i - 1;
 //     }
 
 //     i++;
@@ -54,8 +52,7 @@ for (let i = 0; i < 2; i++) {
 //         console.log("done");
 //         appData.expenses[a] = b;
 //     } else {
-//         a = prompt("Введите обязательную статью расходов в этом месяце", "");
-//         b = prompt("Во сколько обойдется?", 0);
+//         i = i - 1;
 //     }
 
 //     i++;
